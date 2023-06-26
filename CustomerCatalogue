@@ -1,0 +1,16 @@
+package carOps;
+
+public class CustomerCatalogue {
+
+	
+	public void SearchCustomer(String Name) {
+		// TODO - implement CustomerCatalogue.SearchCustomer
+		throw new UnsupportedOperationException();
+	}
+
+	public void GetAllCustomers() {
+		// TODO - implement CustomerCatalogue.GetAllCustomers
+		throw new UnsupportedOperationException();
+	}
+
+}
