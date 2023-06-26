@@ -1,7 +1,65 @@
-echo "# CarOps" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Paschalina-Doumou/CarOps.git
-git push -u origin main
+@ -0,0 +1,64 @@
+package carOps;
+
+import java.util.ArrayList;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("------------------------------------------------------------");
+		System.out.println("3 αντικείμενα της κλάσης Εργασία Επισκευής κατασκευάστηκαν");
+		ArrayList<CurrentRepair> repairList = new ArrayList<CurrentRepair>();
+		CurrentRepair repair1 = new CurrentRepair();
+		repair1.Set("allagi ladiwn", "20€");
+		repairList.add(repair1);
+		repair1.PrintLists();
+		
+		CurrentRepair repair2 = new CurrentRepair();
+		repair2.Set("allagi filtrou kampinas", "5€");
+		repairList.add(repair2);
+		repair2.PrintLists();
+		
+		CurrentRepair repair3 = new CurrentRepair();
+		repair3.Set("suntirisi frenwn", "30€");
+		repairList.add(repair3);
+		repair3.PrintLists();
+		
+		System.out.println("------------------------------------------------------------");
+		
+		System.out.println("6 αντικείμενα της κλάσης Τύπος Ανταλλακτικού κατασκευάστηκαν");
+		ArrayList<ReapairCatalogue> repairPartsList = new ArrayList<ReapairCatalogue>();
+		ReapairCatalogue parttype1 = new ReapairCatalogue();
+		parttype1.Set("syskeuasia ladiwn 4lt", "30€");
+		repairPartsList.add(parttype1);
+		parttype1.PrintLists();
+		
+		ReapairCatalogue parttype2 = new ReapairCatalogue();
+		parttype2.Set("filtro ladiou", "20€");
+		repairPartsList.add(parttype2);
+		parttype2.PrintLists();
+		
+		ReapairCatalogue parttype3 = new ReapairCatalogue();
+		parttype3.Set("filtro ladiokampinas", "30€");
+		repairPartsList.add(parttype3);
+		parttype3.PrintLists();
+		
+		ReapairCatalogue parttype4 = new ReapairCatalogue();
+		parttype4.Set("takaki frenwn empros troxou", "5€");
+		repairPartsList.add(parttype4);
+		parttype4.PrintLists();
+		
+		ReapairCatalogue parttype5 = new ReapairCatalogue();
+		parttype5.Set("takaki frenwn pisw troxou", "5€");
+		repairPartsList.add(parttype5);
+		parttype5.PrintLists();
+		
+		ReapairCatalogue parttype6 = new ReapairCatalogue();
+		parttype6.Set("ygro frenwn", "10€");
+		repairPartsList.add(parttype6);
+		parttype6.PrintLists();
+		
+		
+	}
+
+}
