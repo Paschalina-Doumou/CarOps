@@ -1,0 +1,38 @@
+package carOps;
+
+public class Appointment {
+
+	private int Time;
+	private int Date;
+	private String Code;
+
+	public void Create() {
+		// TODO - implement Appointment.Create
+		throw new UnsupportedOperationException();
+	}
+
+	public int getTime() {
+		return Time;
+	}
+
+	public void setTime(int time) {
+		Time = time;
+	}
+
+	public int getDate() {
+		return Date;
+	}
+
+	public void setDate(int date) {
+		Date = date;
+	}
+
+	public String getCode() {
+		return Code;
+	}
+
+	public void setCode(String code) {
+		Code = code;
+	}
+
+}
