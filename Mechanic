@@ -1,0 +1,10 @@
+package carOps;
+
+public class Mechanic extends EntryMechanic {
+
+	private void GetName() {
+		// TODO - implement Mechanic.GetName
+		throw new UnsupportedOperationException();
+	}
+
+}
