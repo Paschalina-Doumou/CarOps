@@ -1,0 +1,41 @@
+package carOps;
+
+public class Vehicle extends Van {
+
+	private String LicensePlate;
+	private String Type;
+	private String Brand;
+	private String Model;
+	private int ProductionYear;
+	public String getLicensePlate() {
+		return LicensePlate;
+	}
+	public void setLicensePlate(String licensePlate) {
+		LicensePlate = licensePlate;
+	}
+	public String getType() {
+		return Type;
+	}
+	public void setType(String type) {
+		Type = type;
+	}
+	public String getBrand() {
+		return Brand;
+	}
+	public void setBrand(String brand) {
+		Brand = brand;
+	}
+	public String getModel() {
+		return Model;
+	}
+	public void setModel(String model) {
+		Model = model;
+	}
+	public int getProductionYear() {
+		return ProductionYear;
+	}
+	public void setProductionYear(int productionYear) {
+		ProductionYear = productionYear;
+	}
+
+}
