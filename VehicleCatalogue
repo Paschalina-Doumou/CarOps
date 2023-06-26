@@ -1,0 +1,15 @@
+package carOps;
+
+public class VehicleCatalogue {
+
+	public void GetAllVehicles() {
+		// TODO - implement VehicleCatalogue.GetAllVehicles
+		throw new UnsupportedOperationException();
+	}
+
+	public void GetAllLicensePlates() {
+		// TODO - implement VehicleCatalogue.GetAllLicensePlates
+		throw new UnsupportedOperationException();
+	}
+
+}
