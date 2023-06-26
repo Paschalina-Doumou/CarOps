@@ -1,0 +1,10 @@
+package carOps;
+
+public class PriceCatalogue {
+
+	public void GetAllPrices() {
+		// TODO - implement PriceCatalogue.GetAllPrices
+		throw new UnsupportedOperationException();
+	}
+
+}
