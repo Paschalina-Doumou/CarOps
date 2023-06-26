@@ -1,0 +1,34 @@
+package carOps;
+
+import java.util.ArrayList;
+
+public class CurrentRepair {
+
+	private String Repair;
+	private float Cost;
+	private ArrayList<String> costList = new ArrayList<String>();
+	private ArrayList<String> repairList = new ArrayList<String>();
+	
+	
+	public CurrentRepair() {
+		
+	}
+
+
+
+	public void Set(String Repair, String Cost) {
+		repairList.add(Repair);
+		costList.add(Cost);
+	}
+	
+	public void PrintLists(){
+		for(int i=0; i<repairList.size(); i++) {
+			System.out.println(repairList.get(i));
+		}
+		for(int i=0; i<costList.size(); i++) {
+			System.out.println(costList.get(i));
+		}
+		
+	}
+
+}
