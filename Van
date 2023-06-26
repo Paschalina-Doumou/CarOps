@@ -1,0 +1,15 @@
+package carOps;
+
+public class Van {
+
+	private int Payload;
+
+	public int getPayload() {
+		return Payload;
+	}
+
+	public void setPayload(int payload) {
+		Payload = payload;
+	}
+
+}
