@@ -1,0 +1,23 @@
+package carOps;
+
+public class CustomerTab extends Tab {
+
+	/**
+	 * 
+	 * @param Name
+	 * @param LastName
+	 * @param Email
+	 * @param PhoneNumber
+	 * @param Address
+	 */
+	public void fillinfo(String Name, String LastName, String Email, String PhoneNumber, String Address) {
+		// TODO - implement CustomerTab.fillinfo
+		throw new UnsupportedOperationException();
+	}
+
+	private void GetCustomer() {
+		// TODO - implement CustomerTab.GetCustomer
+		throw new UnsupportedOperationException();
+	}
+
+}
