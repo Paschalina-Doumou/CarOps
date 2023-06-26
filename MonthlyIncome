@@ -1,0 +1,15 @@
+package carOps;
+
+public class MonthlyIncome {
+
+	public float CalculateMonthlyIncome() {
+		// TODO - implement MonthlyIncome.CalculateMonthlyIncome
+		throw new UnsupportedOperationException();
+	}
+
+	public void GetMonthlyIncome() {
+		// TODO - implement MonthlyIncome.GetMonthlyIncome
+		throw new UnsupportedOperationException();
+	}
+
+}
