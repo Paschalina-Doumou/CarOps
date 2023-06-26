@@ -1,0 +1,27 @@
+package carOps;
+
+public class VehicleTab extends Tab {
+
+	/**
+	 * 
+	 * @param LicensePlate
+	 * @param Brand
+	 * @param Model
+	 * @param ProductionYear
+	 */
+	public void fillinfo(String LicensePlate, String Brand, String Model, int ProductionYear) {
+		// TODO - implement VehicleTab.fillinfo
+		throw new UnsupportedOperationException();
+	}
+
+	private void GetVehicle() {
+		// TODO - implement VehicleTab.GetVehicle
+		throw new UnsupportedOperationException();
+	}
+
+	private void GetInformation() {
+		// TODO - implement VehicleTab.GetInformation
+		throw new UnsupportedOperationException();
+	}
+
+}
