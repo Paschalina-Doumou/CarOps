@@ -1,0 +1,15 @@
+package carOps;
+
+public class Motorcycle {
+
+	private float EngineCapacity;
+
+	public float getEngineCapacity() {
+		return EngineCapacity;
+	}
+
+	public void setEngineCapacity(float engineCapacity) {
+		EngineCapacity = engineCapacity;
+	}
+
+}
